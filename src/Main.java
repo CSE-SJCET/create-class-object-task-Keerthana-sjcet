@@ -1,15 +1,11 @@
-
-public class Student{
+class Student{
 	
-	public String name;
-	public int rollNumber;
-	public char grade;
+	String name;
+	int rollNumber;
+	char grade;
 	
-	public Student(){
-		name="Ram";
-		rollNumber=47;
-		grade='S';
-	}
+	
+	
 	public void displayDetails(){
 		System.out.println("Name: "+name);
 		System.out.println("Rollno: "+rollNumber);
@@ -21,6 +17,12 @@ public class Student{
 public class Main {
       public static void main(String[] args) {
     	  Student std=new Student();
+    	  
+    	  
+		  std.name="Ram";
+    	  std.rollNumber=47;
+    	  std.grade='S';
+    	  
     	  std.displayDetails();
         // TODO: Create a Student object and call the method to display details
     }
