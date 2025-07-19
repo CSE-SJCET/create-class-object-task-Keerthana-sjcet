@@ -1,14 +1,14 @@
 package demo;
 class Student{
 	
-	public String name;
-	public int rollNumber;
-	public String grade;
+	String name;
+	int rollNumber;
+	char grade;
 	
 	Student(){
 		name="Ram";
 		rollNumber=47;
-		grade="S";
+		grade='S';
 	}
 	public void displayDetails(){
 		System.out.println("Name: "+name);
