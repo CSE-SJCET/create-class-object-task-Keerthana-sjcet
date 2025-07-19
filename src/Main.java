@@ -18,7 +18,7 @@ class Student{
 	
 	// TODO: Create a method to display student details
 }
-public class OOPSDEMO {
+public class Main {
       public static void main(String[] args) {
     	  Student std=new Student();
     	  std.displayDetails();
