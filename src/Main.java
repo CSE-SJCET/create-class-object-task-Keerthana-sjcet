@@ -1,11 +1,11 @@
-package demo;
-class Student{
+
+public class Student{
 	
-	String name;
-	int rollNumber;
-	char grade;
+	public String name;
+	public int rollNumber;
+	public char grade;
 	
-	Student(){
+	public Student(){
 		name="Ram";
 		rollNumber=47;
 		grade='S';
